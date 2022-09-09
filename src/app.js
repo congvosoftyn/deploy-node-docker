@@ -5,6 +5,5 @@ app.get('/',(req,res)=>{
     return res.send('Hello World!')
 })
 
-app.listen(4000,()=>{
-    console.log('Server is running port 4000')
-})
+
+module.exports = app;
